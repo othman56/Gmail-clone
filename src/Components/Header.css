@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: whitesmoke;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left img {
+  width: 100px;
+  height: 50;
+  margin-left: 5px;
+}
+
+.header-middle {
+  display: flex;
+  flex: 0.7;
+  align-items: center;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.header-middle input {
+  width: 100%;
+  background-color: transparent;
+  font-size: medium;
+  outline-width: 0;
+  padding: 10px;
+  border: none;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 0.2;
+}
